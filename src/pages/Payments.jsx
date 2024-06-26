@@ -6,7 +6,8 @@ const Payments = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     
     const submitPayment = () =>{
-        console.log("Sending Data✔️2")
+        console.log("Sending Data✔️")
+
       }
 
   return (
