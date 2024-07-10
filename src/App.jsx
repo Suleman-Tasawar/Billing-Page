@@ -1,13 +1,14 @@
 import "./App.jsx"
 import Billing from "./pages/Billing.jsx";
-import Payments from "./pages/Payments.jsx"
+import Catering from "./pages/Catering.jsx";
 
 function App() {
 
   return (
     <div className="flex justify-evenly items-center  min-h-screen  bg-gradient-to-r from-violet-500 to-fuchsia-500">
-      <Billing/>
+      
      {/* <Payments/> */}
+     <Catering/>
     </div>
 
   )
